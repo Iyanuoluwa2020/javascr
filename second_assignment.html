@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=z, initial-scale=1.0">
+    <title>DAY 3</title>
+</head>
+<body>
+       <h3 id="day"></h3>
+       <p id="ass.op"></p>
+       <p id="types"></p>
+       <li id="type1"></li>
+       <li id="type2"></li>
+       <li id="type3"></li>
+
+       <h5 id="assignments"></h5>
+       <li id="addition"></li>
+       <p id="add"></p>
+       <li id="subtraction"></li>
+        <p id="sub"></p>
+        <p id="adde"></p>
+
+        <h5 id="comparison"></h5>
+        <li id="equalto"></li>
+       <p id="equal"></p>
+       <li id=""></li>
+        <p id=""></p>
+        <p id=""></p>
+
+
+        <h5 id="conditional"></h5>
+        <li id="exp"></li>
+       <p id=""></p>
+       <!-- <li id=""></li>
+        <p id=""></p>
+        <p id=""></p> -->
+
+
+       
+   <script>
+    // const minute = new Date ();
+    // let greeting;
+    //  if (minute < 1) {
+    //          greeting = "good day";
+    //  }
+
+    
+    document.getElementById("day"). innerHTML = 'Day 3 of learning javascript';
+    document.getElementById("ass.op"). innerHTML = 'It always cool but it was not easy anyway, yesterday we were thought about Javascript Operators and today we talk about the types of operators and their functins';
+    document.getElementById("types"). innerHTML = 'We talk about three types  of Operators which are;';
+    document.getElementById("type1"). innerHTML = 'Assignments Operator';
+    document.getElementById("type2"). innerHTML = 'Comparison Operator';
+    document.getElementById("type3"). innerHTML = 'Conditional Operator';
+
+    document.getElementById("assignments"). innerHTML = 'Assignments operators perform arithmetic on numbers (literals or variables).';
+    let x = 5;
+    let j = 2;
+    let y = x + j;
+
+    console.log(y);
+         y = x - j;
+    console.log(y);
+         y = x * j;
+    console.log(y);
+         y = x / j;
+    console.log(y);
+         y = x % j;
+    console.log(y);
+         y = x ** j;
+
+         u = 50;
+         u += 5;
+       console.log(u);
+
+         u = 50;
+         u /= 5;
+       console.log(u);
+           
+
+   
+
+
+    document.getElementById("comparison"). innerHTML = 'Comparison operators are used in logical statements to determine equality or difference between variables or values.';
+      
+    let a = 5;
+    let b = 2;
+    let i = a + b;
+
+    console.log(i);
+         i = a == 1;
+    console.log(i);
+         i = a === b;
+    console.log(i);
+         i = a != b;
+    console.log(i);
+         i = a !== b;
+    console.log(i);
+         i = a > b;
+    console.log(i);
+         i = a && b;
+    console.log(a < b);
+    console.log(a <= b);
+    console.log(a >= b);
+      b = ( (5 > 10) ||(10 < 100) )
+      console.log(b)
+      b = ( (5 > 10) && (10 < 100) )
+      console.log(b)
+      b = ! ( (10 < 100) )
+      console.log(b)
+         
+
+         
+         
+         document.getElementById("conditional"). innerHTML = 'JavaScript also contains a conditional operator that assigns a value to a variable based on some condition.';
+
+         let g = 10 > 60 ? "welcome" : "fool"
+      console.log(g)
+
+       score = 60
+       let grade = score > 10 ? "welcome" : "fool"
+      console.log(grade)
+
+      let firstName = "iyanu "
+      let lastName = "pelumi "
+      let fullname = firstName + lastName
+      console.log(fullname)
+
+      let f =20;
+      typeof f
+      console.log(f)
+
+
+   </script>
+
+    
+</body>
+</html>
