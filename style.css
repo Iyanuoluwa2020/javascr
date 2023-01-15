@@ -3,3 +3,15 @@
     color: whitesmoke;
     text-align: center;
 }
+
+#input{
+    text-align: center;
+    display: inline-block;
+    color: wheat;
+}
+@media(max-width:500px){
+    #input{
+        width: 100%;
+        text-align: center;
+    }
+}

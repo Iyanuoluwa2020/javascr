@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div style="width: 20%; padding:9px; margin-top:5%; background-color:black; text-align: center;" id="input">
+      <label>score</label>
+     <input type="text" value="" name= "" id="score" style="max-width:80%; height:40px; outline: none; border-bottom: 2px outset gray;">
+          
+     <nav style="padding: 5px; font-size: x-large;">
+     <button onclick="document.getElementById('score').value +='1'">1</button>
+     <button onclick="document.getElementById('score').value +='2'">2</button>
+     <button onclick="document.getElementById('score').value +='3'">3</button>
+     <button onclick="document.getElementById('score').value +='4'">4</button>
+     <button onclick ="document.getElementById('score').value +='+'">+</button>
+     <button onclick="document.getElementById('score').value  +='5'">5</button>
+     <button onclick="document.getElementById('score').value +='6'">6</button>
+     <button onclick="document.getElementById('score').value +='7'">7</button>
+     <button onclick="document.getElementById('score').value +='8'">8</button>
+     <button onclick="document.getElementById('score').value +='-'">-</button>
+     <button onclick="document.getElementById('score').value +='9'">9</button>
+     <button onclick="document.getElementById('score').value +='0'">0</button>
+     <button onclick="document.getElementById('score').value +='/'">/</button>
+     <button onclick="document.getElementById('score').value +='*'">*</button>
+     
+
+     <button onclick="document.getElementById('score').value=eval(document.getElementById('score').value)">=</button>
+
+     <button onclick="document.getElementById('score').value =''">Clear</button>
+     </nav>
+    </div>
+
+       <p id="cond"></p>
+
+    <script>
+        // let score=document.getElementById('score');
+        // score.value;
+        // score.value =;
+
+
+
+        let cond = 50;
+        
+        if (cond>=40
+         && cond<=100)
+        {console.log('welcome')
+
+        document.getElementById("cond").innerHTML="welcome";
+    }
+         else(cond>=400 && cond<=79)
+        {console.log('bye')
+
+        document.getElementById("cond").innerHTML="bye";
+   }
+
+        
+
+    </script>
+
+    
+</body>
+</html>
