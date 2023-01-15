@@ -6,16 +6,17 @@
 
 #input{
     padding: 30px;
-    height: 200px;
-    width: 30%;
+    height: 250px;
+    width: 40%;
     display: inline-block;
     color: wheat;
     background-color: black;
 }
 .input{
     padding: 10px;
+    font-size: xx-large;
     text-align: center;
-    width: 60%;
+    width: 40%;
     padding-left:40px;
 }
 @media(max-width:500px){
