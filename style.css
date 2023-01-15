@@ -5,13 +5,31 @@
 }
 
 #input{
-    text-align: center;
+    padding: 30px;
+    height: 200px;
+    width: 30%;
     display: inline-block;
     color: wheat;
+    background-color: black;
+}
+.input{
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+    padding-left:40px;
 }
 @media(max-width:500px){
     #input{
         width: 100%;
+        text-align: center;
+    }
+    .face{
+        width: 50%;
+        text-align: center;
+    }
+    
+    .input{
+        width: 40%;
         text-align: center;
     }
 }
