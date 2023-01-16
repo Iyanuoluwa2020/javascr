@@ -9,31 +9,37 @@
 </head>
 <body>
 
-    <div id="input">
-        <div class="face">
+    <div style="background-color: black; height: auto; padding: 30px; border: 3px outset gray; text-align: center;">
+        <div >
       <label>score</label>
-     <input type="text" value="" name= "" id="score" style="max-width:40%; height:40px; outline: none; border-bottom: 2px outset gray;">
+     <input type="text" value="" name= "" id="score" style="width:90%; height:90px; border-bottom: 3px outset gray">
         </div>
-     <nav class="input">
-     <button onclick="document.getElementById('score').value +='-'">-</button>
-     <button onclick ="document.getElementById('score').value +='+'">+</button>
-     <button onclick="document.getElementById('score').value +='1'">1</button>
-     <button onclick="document.getElementById('score').value +='2'">2</button>
-     <button onclick="document.getElementById('score').value +='3'">3</button>
-     <button onclick="document.getElementById('score').value +='4'">4</button>
-     <button onclick="document.getElementById('score').value  +='5'">5</button>
-     <button onclick="document.getElementById('score').value +='6'">6</button>
-     <button onclick="document.getElementById('score').value +='7'">7</button>
-     <button onclick="document.getElementById('score').value +='8'">8</button>
-     <button onclick="document.getElementById('score').value +='9'">9</button>
-     <button onclick="document.getElementById('score').value +='0'">0</button>
-     <button onclick="document.getElementById('score').value +='/'">/</button>
-     <button onclick="document.getElementById('score').value +='*'">*</button>
+
+     <nav style="text-align: center; padding: 15px; width: 100%;">
+        <button onclick="document.getElementById('score').value =''" style="font-size: 30px;padding:15px; background-color: rgb(248, 248, 70); border-radius: 30px;">Clear</button>
+     <button onclick ="document.getElementById('score').value +='+'" style="font-size: 40px;padding:20px;background-color: rgb(87, 84, 84);color:wheat; border-radius: 20px;">+</button>
+     <button onclick="document.getElementById('score').value +='-'"  style="font-size: 40px; padding:20px; background-color: rgb(87, 84, 84);color:wheat; border-radius: 20px;">-</button>
+     <button onclick="document.getElementById('score').value 
+     +='/'" style="font-size: 40px;padding:20px; background-color: rgb(87, 84, 84);color:wheat; border-radius: 20px;">/</button>
+     <button onclick="document.getElementById('score').value +='6'"style="font-size: 40px;padding:25px;">6</button>
+     <button onclick="document.getElementById('score').value +='7'"style="font-size: 40px;padding:25px;">7</button>
+     <button onclick="document.getElementById('score').value +='8'"style="font-size: 40px;padding:25px;">8</button>
+     <button onclick="document.getElementById('score').value +='9'"style="font-size: 40px;padding:25px;">9</button>
+     <button onclick="document.getElementById('score').value  +='5'"style="font-size: 40px;padding:25px;">5</button>
+     <button onclick="document.getElementById('score').value +='4'"style="font-size: 40px;padding:25px;">4</button>
+     <button onclick="document.getElementById('score').value +='3'"style="font-size: 40px;padding:25px;">3</button>
+     <button onclick="document.getElementById('score').value +='2'"style="font-size: 40px;padding:25px;">2</button>
+     <button onclick="document.getElementById('score').value +='1'"style="font-size: 40px;padding:25px;">1</button><br>
+     <button onclick="document.getElementById('score').value
+      +='0'" style="font-size: 40px;padding: 30px; background-color:red;color:wheat; border:5px 20px; ">0</button>
+      <button onclick="document.getElementById('score').value 
+     +='*'"  style="font-size: 40px;padding:25px; background-color: rgb(87, 84, 84);color:wheat; border-radius: 20px;">*</button>
+     
      
 
-     <button onclick="document.getElementById('score').value=eval(document.getElementById('score').value)">=</button>
+     <button onclick="document.getElementById('score').value=eval(document.getElementById('score').value)" style="font-size: 40px;padding:30px;background-color:green;color:wheat; border: 30px;">=</button>
 
-     <button onclick="document.getElementById('score').value =''">Clear</button>
+     
      </nav>
     </div>
 

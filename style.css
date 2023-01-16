@@ -4,28 +4,17 @@
     text-align: center;
 }
 
-#input{
-    padding: 30px;
-    height: 250px;
-    width: 40%;
-    display: inline-block;
-    color: wheat;
-    background-color: black;
+.row{
+
 }
-.input{
-    padding: 10px;
-    font-size: xx-large;
-    text-align: center;
-    width: 40%;
-    padding-left:40px;
-}
+   
 @media(max-width:500px){
     #input{
         width: 100%;
         text-align: center;
     }
     .face{
-        width: 50%;
+        width: 100%;
         text-align: center;
     }
     
